@@ -139,14 +139,16 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #0f0e0e98;
-		font-weight: 400;
+		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: #089ef5;
 			text-decoration: none;
+			font-size: 90%;
+			font-weight: 300;
 		}
 
 	h1 {
@@ -244,6 +246,59 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	/* Scroll to top */
+	.gototop{
+		position: fixed;
+		width: 40px;
+		height: 40px;
+		background: #787878;
+		bottom: 40px;
+		right: 40px;
+
+		text-decoration: none;
+		text-align: center;
+		line-height: 40px;
+		color: white;
+		font-size: inherit;
+
+	}
+
+	.schwab-shadow{
+		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
+		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat; 
+		background-position: inherit;
+		opacity: inherit;
+	}
+	.datafirst-shadow{
+		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
+		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat; 
+		background-position: inherit;
+		opacity: inherit;
+	}
+	.alstate-shadow{
+		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
+		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat; 
+		background-position: inherit;
+		opacity: inherit;
+	}
+	.hibu-shadow{
+		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
+		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat; 
+		background-position: inherit;
+		opacity: inherit;
+	}
+	.emids-shadow{
+		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
+		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat; 
+		background-position: inherit;
+		opacity: inherit;
+	}
+
 /* Container */
 
 	.container {
@@ -281,6 +336,13 @@ input, select, textarea {
 			.container {
 				width: 100% !important;
 				max-width: 100% !important;
+			}
+			/* Hide left navigation on small screen */
+			#nav{
+				display: none;
+			}
+			#header {
+				width: 15%;
 			}
 
 		}
@@ -1898,7 +1960,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: #d6d3d3;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2150,7 +2212,6 @@ input, select, textarea {
 			}
 
 /* List */
-
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
@@ -3003,7 +3064,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 20%;
 			}
 
 				#header h1 {
