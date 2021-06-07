@@ -265,37 +265,43 @@ input, select, textarea {
 
 	.schwab-shadow{
 		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/company/schwab.png");
+		background-size: initial;
 		background-repeat: no-repeat; 
-		background-position: inherit;
+		background-size: 35px 35px;
+  		background-position: top right;
 		opacity: inherit;
 	}
 	.datafirst-shadow{
 		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/company/datafirst.png");
 		background-repeat: no-repeat; 
-		background-position: inherit;
+		background-size: 65px 35px;
+  		background-position: top right;
 		opacity: inherit;
 	}
 	.alstate-shadow{
 		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/company/alstate.png");
 		background-repeat: no-repeat; 
-		background-position: inherit;
+		background-size: 65px 35px;
+  		background-position: top right;
 		opacity: inherit;
 	}
 	.hibu-shadow{
 		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/company/hibu_3x.png");
 		background-repeat: no-repeat; 
-		background-position: inherit;
+		background-size: 45px 30px;
+  		background-position: top right;
 		opacity: inherit;
 	}
 	.emids-shadow{
 		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/company/emids-logo-RGB.png");
 		background-repeat: no-repeat; 
-		background-position: inherit;
+		background-size: 55px 30px;
+  		background-position: top right;
 		opacity: inherit;
 	}
 
