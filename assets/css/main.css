@@ -268,7 +268,7 @@ input, select, textarea {
 		background-image: url("../../images/company/schwab.png");
 		background-size: initial;
 		background-repeat: no-repeat; 
-		background-size: 35px 35px;
+		background-size: 45px 45px;
   		background-position: top right;
 		opacity: inherit;
 	}
@@ -284,7 +284,7 @@ input, select, textarea {
 		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
 		background-image: url("../../images/company/alstate.png");
 		background-repeat: no-repeat; 
-		background-size: 65px 35px;
+		background-size: 75px 45px;
   		background-position: top right;
 		opacity: inherit;
 	}
@@ -292,7 +292,7 @@ input, select, textarea {
 		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
 		background-image: url("../../images/company/hibu_3x.png");
 		background-repeat: no-repeat; 
-		background-size: 45px 30px;
+		background-size: 45px 40px;
   		background-position: top right;
 		opacity: inherit;
 	}
@@ -300,7 +300,7 @@ input, select, textarea {
 		/* background-image: url('https://www.datafirst.com/wp-content/uploads/2016/10/logo-datafirst-small.png'); */
 		background-image: url("../../images/company/emids-logo-RGB.png");
 		background-repeat: no-repeat; 
-		background-size: 55px 30px;
+		background-size: 65px 35px;
   		background-position: top right;
 		opacity: inherit;
 	}
